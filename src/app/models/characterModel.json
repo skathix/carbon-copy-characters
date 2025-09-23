@@ -1,0 +1,276 @@
+{
+  "basicInformation": {
+    
+  },
+  "abilityScores": {
+    "strength": "",
+    "dexterity": "",
+    "constitution": "",
+    "intelligence": "",
+    "wisdom": "",
+    "charisma": ""
+  },
+  "proficiencies": {
+    "proficiencyBonus": "",
+    "inspiration": false,
+    "savingThrows": {
+      "strength": false,
+      "dexterity": false,
+      "constitution": false,
+      "intelligence": false,
+      "wisdom": false,
+      "charisma": false
+    },
+    "skills": {
+      "acrobatics": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "dexterity"
+      },
+      "animalHandling": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "wisdom"
+      },
+      "arcana": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "intelligence"
+      },
+      "athletics": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "strength"
+      },
+      "deception": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "charisma"
+      },
+      "history": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "intelligence"
+      },
+      "insight": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "wisdom"
+      },
+      "intimidation": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "charisma"
+      },
+      "investigation": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "intelligence"
+      },
+      "medicine": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "wisdom"
+      },
+      "nature": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "intelligence"
+      },
+      "perception": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "wisdom"
+      },
+      "performance": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "charisma"
+      },
+      "persuasion": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "charisma"
+      },
+      "religion": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "intelligence"
+      },
+      "sleightOfHand": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "dexterity"
+      },
+      "stealth": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "dexterity"
+      },
+      "survival": {
+        "proficient": false,
+        "expert": false,
+        "abilityScore": "wisdom"
+      }
+    },
+    "otherProficienciesAndLanguages": ""
+  },
+  "combat": {
+    "armorClass": "",
+    "initiative": "",
+    "speed": "",
+    "hitPoints": {
+      "current": "",
+      "temporary": "",
+      "total": ""
+    },
+    "hitDice": {
+      "total": "",
+      "type": ""
+    },
+    "deathSaves": {
+      "success1": false,
+      "success2": false,
+      "success3": false,
+      "failure1": false,
+      "failure2": false,
+      "failure3": false
+    },
+    "attacks": [
+      {
+        "name": "",
+        "ability": "",
+        "proficient": false,
+        "damage": "",
+        "damageType": "",
+        "range": "",
+        "description": ""
+      }
+    ]
+  },
+  "spellcasting": {
+    "classes": [
+      {
+        "name": "",
+        "level": 1,
+        "spellcastingAbility": ""
+      }
+    ],
+    "spellSlots": {
+      "total": [
+        {
+          "level": 0,
+          "slots": 0
+        }
+      ],
+      "used": [
+        {
+          "level": 0,
+          "slots": 0
+        }
+      ]
+    },
+    "spells": [
+      {
+        "name": "",
+        "level": 0,
+        "school": "",
+        "ritual": false,
+        "castingTime": "",
+        "range": "",
+        "components": "",
+        "duration": "",
+        "description": ""
+      }
+    ]
+  },
+  "features": {
+    "featuresAndTraits": [
+      {
+        "name": "",
+        "description": ""
+      }
+    ],
+    "additionalFeaturesAndTraits": ""
+  },
+  "equipment": {
+    "currency": {
+      "cp": 0,
+      "sp": 0,
+      "ep": 0,
+      "gp": 0,
+      "pp": 0
+    },
+    "items": [
+      {
+        "name": "",
+        "quantity": 1,
+        "weight": 0,
+        "description": ""
+      }
+    ],
+    "weapons": [
+      {
+        "name": "",
+        "quantity": 1,
+        "weight": 0,
+        "description": "",
+        "damage": "",
+        "damageType": "",
+        "properties": ""
+      }
+    ],
+    "armor": [
+      {
+        "name": "",
+        "quantity": 1,
+        "weight": 0,
+        "description": "",
+        "armorClass": "",
+        "stealthDisadvantage": false,
+        "strengthRequirement": ""
+      }
+    ],
+    "otherEquipment": [
+      {
+        "name": "",
+        "quantity": 1,
+        "weight": 0,
+        "description": ""
+      }
+    ],
+    "treasure": ""
+  },
+  "character": {
+    "physicalDescription": {
+      "age": "",
+      "height": "",
+      "weight": "",
+      "eyes": "",
+      "skin": "",
+      "hair": "",
+      "appearance": ""
+    },
+    "personality": {
+      "personalityTraits": "",
+      "ideals": "",
+      "bonds": "",
+      "flaws": ""
+    },
+    "backstory": "",
+    "alliesAndOrganizations": "",
+    "name": "",
+    "playerName": "",
+    "classes": [
+        {
+            "name": "",
+            "subclass": "",
+            "level": 1
+        }
+    ],
+    "background": "",
+    "race": "",
+    "alignment": "",
+    "xp": ""
+  }
+}

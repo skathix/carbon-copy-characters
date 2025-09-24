@@ -18,8 +18,8 @@ export default function CharacterFormik() {
                     actions.setSubmitting(false);
                 } }
             >
-                {({ handleSubmit }) => (
-                    <CharacterForm handleSubmit={handleSubmit} />
+                {({ }) => (
+                    <CharacterForm />
                 )}
             </Formik>
         </div></>

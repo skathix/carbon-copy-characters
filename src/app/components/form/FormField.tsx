@@ -3,8 +3,6 @@
 import { Field } from "formik";
 import React from "react";
 
-// Helper function to get nested error by path
-
 export default function FormField({
   label,
   name,

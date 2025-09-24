@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 import characterModel from "./models/characterModel.json";
 import { Field, Form, Formik } from "formik";
 import FormField from "./components/form/FormField";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSave } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
   return (
@@ -25,7 +27,11 @@ export default function Home() {
             {({ values, errors, handleChange, handleSubmit }) => (
               <Form onSubmit={handleSubmit} className={"border"}>
                 <div className={"d-flex gap-3 justify-content-start mb-3"}>
-                  <div className={"d-flex flex-column align-self-center border gap-3 p-3"}>
+                  <div
+                    className={
+                      "d-flex flex-column align-self-center border gap-3 p-3"
+                    }
+                  >
                     <FormField
                       label={"character.name"}
                       name={"character.name"}
@@ -70,9 +76,11 @@ export default function Home() {
                   </div>
                 </div>
                 <div className={"d-flex flex-column"}></div>
-                <button type="submit" className="btn btn-primary">
-                  Save Character
-                </button>
+                <div className={"d-flex gap-3 justify-content-start p-3"}>
+                  <button type="submit" className="btn btn-sm btn-primary">
+                    <FontAwesomeIcon icon={faSave} />
+                  </button>
+                </div>
               </Form>
             )}
           </Formik>

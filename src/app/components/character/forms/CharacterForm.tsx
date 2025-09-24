@@ -14,7 +14,9 @@ export default function CharacterForm() {
         <div className={"d-flex gap-3 justify-content-start mb-3"}>
           <PrimaryCharacterInfo />
         </div>
-        <SecondaryCharacterInfo />
+        <div className={"d-flex justify-content-start"}>
+            <SecondaryCharacterInfo />
+        </div>
         {/*
             This is the second half, 80% of the visual height of the pdf form
             it includes the following sections:

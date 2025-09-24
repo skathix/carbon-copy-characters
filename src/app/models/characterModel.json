@@ -113,7 +113,7 @@
     "otherProficienciesAndLanguages": ""
   },
   "combat": {
-    "armorClass": "",
+    "armorClass": "10",
     "initiative": "",
     "speed": "",
     "hitPoints": {

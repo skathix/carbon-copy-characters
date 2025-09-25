@@ -8,7 +8,7 @@ export default function PrimaryCharacterInfo() {
         <FormField label={"character.name"} name={"character.name"} />
       </div>
       <div className={"d-flex flex-column border gap-3 p-3"}>
-        <div className={"d-flex"}>
+        <div className={"d-flex gap-3"}>
           <FormField
             label={"character.classes[0].name"}
             name={"character.classes[0].name"}
@@ -22,7 +22,7 @@ export default function PrimaryCharacterInfo() {
             name={"character.playerName"}
           />
         </div>
-        <div className={"d-flex"}>
+        <div className={"d-flex gap-3"}>
           <FormField label={"character.race"} name={"character.race"} />
           <FormField
             label={"character.alignment"}

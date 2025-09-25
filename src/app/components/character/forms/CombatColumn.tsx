@@ -128,36 +128,6 @@ export default function CombatColumn() {
           </div>
         </div>
       </div>
-      {/* Add the Attacks & Spellcasting Block
-        Should be a panel that starts with 3 rows, 3 inputs each, {Name, Attack Bonus, Damage/Type}
-        After that panel there should be a text area
-        3 rows group should be 1/3 of the panel height, text area should be 2/3 of the panel height
-        "weapons": [
-      {
-        "name": "",
-        "quantity": 1,
-        "weight": 0,
-        "description": "",
-        "damage": "",
-        "damageType": "",
-        "properties": ""
-      }
-    ]
-
-    Header - Name | Attack Bonus | Damage/Type
-    Row 1 - 
-       Input {equipment.weapons[0].name} 
-       Input {calculateAttackBonus(equipment.weapons[0])} 
-       Input {equipment.weapons[0].damage + " " + equipment.weapons[0].damageType} }
-    Row 2 -
-        Input {equipment.weapons[1].name}
-        Input {calculateAttackBonus(equipment.weapons[1])}
-        Input {equipment.weapons[1].damage + " " + equipment.weapons[1].damageType} }
-    Row 3 -
-        Input {equipment.weapons[2].name}
-        Input {calculateAttackBonus(equipment.weapons[2])}
-        Input {equipment.weapons[2].damage + " " + equipment.weapons[2].damageType} }
-      */}
       <div className={"d-flex justify-content-around align-items-center mt-2"}>
         <div className={"d-flex flex-column flex-fill p-3 border"}>
           <div className={"d-flex justify-content-around align-items-center gap-3 p-2"}>
